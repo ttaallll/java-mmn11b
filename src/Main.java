@@ -5,7 +5,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Temperature t = new Temperature(2015, new int[]{0,0,0,0,0,0,0,0,0,0,0,0});
+        Temperature t = new Temperature(2015, new int[]{10,10,10,10,10,10,10,10,10,10,10,10});
         Weather m = new Weather();
         m.setTemperature(t);
 
